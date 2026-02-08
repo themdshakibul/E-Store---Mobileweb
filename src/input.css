@@ -8,8 +8,15 @@
     width: 80%;
     margin: 0 auto;
   }
+
+  .mobile-continers {
+    width: 95%;
+    margin: 0 auto;
+  }
 }
 
 :root {
   --prymary-color: #f6f6f6;
+  --background-color: #211c24;
+  --text-white: #ffffff65;
 }
