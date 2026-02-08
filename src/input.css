@@ -4,6 +4,10 @@
   .inter-font {
     font-family: "Inter", sans-serif;
   }
+  .continers {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 :root {
