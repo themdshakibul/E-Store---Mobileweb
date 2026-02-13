@@ -94,15 +94,24 @@
     <main>
       <!-- mack book section -->
       <section>
-        <div>
-          <div class="grid grid-cols-2">
+        <div class="mb-14 sm:mb-18 md:mb-20 lg:mb-24">
+          <div class="grid grid-cols-1 lg:grid-cols-2">
             <!-- left section -->
             <div class="grid">
-              <div class="grid grid-cols-2 items-center">
+              <div
+                class="flex flex-col sm:flex-row items-center justify-center sm:justify-between"
+              >
                 <div>
-                  <img src="./image/PlayStation.png" alt="" />
+                  <img
+                    src="./image/PlayStation (1).png"
+                    alt=""
+                    class="hidden sm:block"
+                  />
+                  <img src="./image/PlayStation.png" alt="" class="sm:hidden" />
                 </div>
-                <div class="flex flex-col gap-5 max-w-80">
+                <div
+                  class="flex flex-col gap-5 lg:max-w-80 p-5 text-center sm:text-left"
+                >
                   <h2 class="text-5xl font-medium">Playstation 5</h2>
                   <p class="text-[14px] font-medium text-(--text-gray)">
                     Incredibly powerful CPUs, GPUs, and an SSD with integrated
@@ -110,12 +119,20 @@
                   </p>
                 </div>
               </div>
-              <div class="grid grid-cols-2">
-                <div class="bg-(--background) flex items-center gap-5">
+              <!-- image 2 -->
+              <div class="grid sm:grid-cols-2">
+                <div
+                  class="bg-(--background) flex flex-col sm:flex-row items-center gap-5 p-10 sm:p-0"
+                >
                   <div>
-                    <img src="./image/hero.png" alt="" />
+                    <img
+                      src="./image/airpods 1.png"
+                      alt=""
+                      class="hidden sm:block"
+                    />
+                    <img src="./image/airpos.png" alt="" class="sm:hidden" />
                   </div>
-                  <div class="text-3xl font-light w-40">
+                  <div class="text-3xl font-light sm:w-40">
                     <h2>
                       Apple AirPods <span class="font-semibold">Max</span>
                     </h2>
@@ -124,14 +141,24 @@
                     </p>
                   </div>
                 </div>
+                <!-- image 3 -->
                 <div>
                   <div
-                    class="h-full bg-(--background-color) flex items-center gap-5"
+                    class="h-full bg-(--background-color) flex flex-col sm:flex-row items-center gap-5 p-10 sm:p-0"
                   >
                     <div>
-                      <img src="./image/apple.png" alt="" />
+                      <img
+                        src="./image/image 36 (1).png"
+                        alt=""
+                        class="hidden sm:block"
+                      />
+                      <img
+                        src="./image/image 36.png"
+                        alt=""
+                        class="sm:hidden"
+                      />
                     </div>
-                    <div class="text-3xl font-light w-40">
+                    <div class="text-3xl font-light sm:w-40">
                       <h2 class="text-white">
                         Apple AirPods <span class="font-semibold">Max</span>
                       </h2>
@@ -145,10 +172,10 @@
             </div>
 
             <!-- right section -->
-            <div class="flex border items-center p-5">
-              <div class="flex flex-col gap-5 py-10 pl-14 border">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+              <div class="grid flex-col gap-5 py-10 pl-14">
                 <h2
-                  class="text-2xl sm:text-4xl md:text-6xl lg:text-8xl font-light text-black"
+                  class="text-2xl sm:text-4xl md:text-6xl font-light text-black"
                 >
                   Macbook <span class="font-semibold">Air</span>
                 </h2>
@@ -162,8 +189,13 @@
                   Shop Now
                 </button>
               </div>
-              <div>
-                <img src="./image/MacBook Pro 14.png" alt="" />
+              <div class="grid sm:justify-end justify-center">
+                <img
+                  src="./image/MacBook Pro 14.png"
+                  alt=""
+                  class="hidden sm:block"
+                />
+                <img src="./image/MacBook Pro.png" alt="" class="sm:hidden" />
               </div>
             </div>
           </div>
